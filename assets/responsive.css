@@ -1,0 +1,84 @@
+@media screen and (max-width: 1024px) {
+    header{
+   justify-content: space-between;
+   padding: 2rem 7rem;
+    }
+  }
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 12px;
+    }
+    header{
+        padding: 2rem 1rem;
+        }
+        .img-section img{
+            margin-left: 3rem;
+        }
+        .img-section figcaption {
+            margin-left: 3rem;
+        }
+}
+@media screen and (max-width: 480px) {
+   header{
+    justify-content:space-around;
+    padding: 2rem 0rem;
+    }
+        main {
+            display: block;
+            padding: 1rem;
+        }
+    
+        .img-section img {
+            width: 100%;
+            height: auto;
+            margin-left: 0;
+            margin-top: 1rem;
+        }
+    
+        .img-section figcaption {
+            text-align: center;
+            margin-left: 0;
+        }
+    
+        .about-section {
+            width: 100%;
+            margin-top: 1rem;
+        }
+        .about-section .div2 a, .about-section .div3 a {
+            display: inline;
+            padding: 5px;
+        }
+        .about-section .div1,
+        .about-section .div2,
+        .about-section .div3 {
+            padding: 1rem;
+        }
+    
+        .paragraph-section {
+            width: 100%;
+            padding-left: 0;
+            font-size: 16px;
+            margin-top: 1rem;
+        }
+    
+        .paragraph-section h1 {
+            font-size: 20px;
+        }
+    
+        .paragraph-section ul {
+            padding-left: 1rem;
+        }
+    
+        footer {
+            width: 100%;
+            margin-left: 0;
+            padding: 1rem;
+        }
+    
+        footer i {
+            padding-top: 20px;
+            padding-left: 10px;
+        }
+    }
+  @media screen and (max-width: 375px) {
+  }

@@ -1,0 +1,79 @@
+
+nav a{
+color:#545354;
+}
+nav button{
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    outline: none;  
+}
+.img-section img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height:400px ;
+    width: 80%;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.img-section figcaption{
+    margin-left: 5rem; 
+}
+.about-section .div1{
+    background-color: #eeeded;
+    border-radius: 2%;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    height: 35%;
+    margin-top: 2rem;
+
+}
+.about-section h3{
+    font-style: italic;
+    padding-bottom: 5px;
+}
+.about-section .div2{
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    line-height:20px;
+}
+.about-section .div3 {
+    padding-left: 1rem;
+    padding-top: 1.5rem; 
+}
+.about-section .div2 a, .about-section .div3 a {
+    display: block;
+    color: #1c7af5;
+}
+.paragraph-section h1{
+    padding-bottom: .5rem;
+    padding-top: 1rem;
+}
+.paragraph-section ul{
+padding-left: 2.5rem;
+padding-top: .5rem;
+}
+.paragraph-section button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 3rem;
+    background-color: #fff;
+}
+.paragraph-section .button1{
+    color: #1c7af5;
+    border-color: #1c7af5;
+    opacity: .8;
+}
+.paragraph-section .button2{
+    color: #545354;
+    border-color: #545354;
+    opacity: .8;
+}
+footer i{
+    padding-top: 70px;
+    padding-left: 20px;
+    cursor: pointer;
+}
